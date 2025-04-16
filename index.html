@@ -1,0 +1,143 @@
+<!DOCTYPE html><html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MillsCom — Сайты под ключ</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+      color: #f0f0f0;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    h1 {
+      font-size: 3em;
+      background: linear-gradient(to right, #00c9ff, #92fe9d);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 800;
+    }
+    p.sub {
+      font-size: 1.2em;
+      color: #ccc;
+      margin-top: 10px;
+    }
+    .section {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 30px;
+      margin-bottom: 30px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+      animation: fadeInUp 1s ease-in-out;
+    }
+    h2 {
+      color: #00ffc6;
+      margin-bottom: 15px;
+    }
+    ul li {
+      margin-bottom: 10px;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .feature {
+      background: rgba(255,255,255,0.07);
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .feature:hover {
+      transform: translateY(-5px);
+    }
+    .feature h3 {
+      margin-bottom: 10px;
+      color: #7afcff;
+    }
+    .contact {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .contact a {
+      display: inline-block;
+      background: #00ffc6;
+      color: #000;
+      padding: 15px 30px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 5px 20px rgba(0, 255, 198, 0.4);
+      transition: background 0.3s;
+    }
+    .contact a:hover {
+      background: #00cc99;
+    }
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; } to { opacity: 1; }
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @media (max-width: 600px) {
+      h1 { font-size: 2em; }
+      .section { padding: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MillsCom</h1>
+    <p class="sub">Профессиональная разработка сайтов. Эффектно. Недорого. Для вас.</p>
+  </header>  <div class="section">
+    <h2>Что я предлагаю:</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>Сайты-визитки</h3>
+        <p>Идеальны для бизнеса и услуг</p>
+      </div>
+      <div class="feature">
+        <h3>Портфолио</h3>
+        <p>Для фотографов, дизайнеров, творцов</p>
+      </div>
+      <div class="feature">
+        <h3>Лендинги</h3>
+        <p>Одностраничники для продажи товаров и услуг</p>
+      </div>
+      <div class="feature">
+        <h3>Персональные сайты</h3>
+        <p>Для резюме, Telegram-ботов, каналов и прочего</p>
+      </div>
+    </div>
+  </div>  <div class="section">
+    <h2>Почему выбирают меня:</h2>
+    <ul>
+      <li>Современный дизайн и плавные анимации</li>
+      <li>Работаю с любыми нишами и стилями</li>
+      <li>Поддержка: помогу с хостингом и доменом</li>
+      <li>Цены от 300₽ — доступно каждому</li>
+    </ul>
+  </div>  <div class="contact">
+    <p>Напиши мне прямо ссейчас </p>
+    <a href="https://t.me/MillersonXIII" target="_blank">мой Telegram</a>
+  </div>  <footer>
+    © 2025 MillsCom. Создание сайтов под ключ. Быстро и качественно.
+  </footer>
+</body>
+</html>
